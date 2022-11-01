@@ -12,6 +12,9 @@ Cloud computing is the on-demand delivery of IT resources over the Internet. Ins
 - Elasticity
 - Cost savings
 - Global scale
+- Security
+- Flexibility
+- Robustness
 
 ## What is AWS?
 
@@ -45,6 +48,30 @@ Organizations of every type, size, and industry are using the cloud for a wide v
 - NASA
 - Netflix
 
-## Pass vs IaaS vs SaaS
+## SasS vs PasS vs IaaS
 
 ![Paas vs IaaS vs SaaS](images/pass-iass-sass.jpg)
+
+### SasS (Software as a Service)
+
+Software as a Service (SaaS) is a software distribution model in which a third-party provider hosts applications and makes them available to customers over the Internet.
+
+### PasS (Platform as a Service)
+
+Platform as a Service (PaaS) is a cloud computing model in which a third-party provider delivers hardware and software tools to customers, who can then develop and run their own applications in the cloud.
+
+### IaaS (Infrastructure as a Service)
+
+Infrastructure as a Service (IaaS) is a cloud computing model in which a third-party provider delivers virtualized computing resources over the Internet. IaaS is a form of utility computing, in which resources are pooled to serve multiple customers using a multi-tenant model.
+
+## CapEx vs OpEx
+
+![CapEx vs OpEx](images/CapEx-OpEx.png)
+
+### CapEx (Capital Expenditure)
+
+Capital expenditure (CapEx) is the money a company spends to acquire or upgrade physical assets such as property, buildings, or equipment.
+
+### OpEx (Operating Expenditure)
+
+Operating expenditure (OpEx) is the money a company spends on day-to-day business activities, such as employee salaries, rent, utilities, and raw materials.
