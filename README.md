@@ -8,13 +8,15 @@ Cloud computing is the on-demand delivery of IT resources over the Internet. Ins
 
 ### Benefits of Clouding Computing
 
-- Agility
-- Elasticity
-- Cost savings
-- Global scale
-- Security
-- Flexibility
-- Robustness
+- Agility: Cloud computing allows you to scale up or down as needed, so you can quickly adjust to changing business needs. You can also quickly add or remove resources, such as storage or compute power, as your needs change.
+
+- Cost savings: Cloud computing can help you reduce your IT costs. You only pay for what you use, so you can scale back or scale up as needed. You can also use tools to monitor and manage your cloud resources, so you can optimize your spending.
+
+- Global scale: Cloud computing gives you access to resources in multiple regions around the world. This means you can deliver content to your customers faster, no matter where they are.
+
+- Security: Cloud computing providers offer a range of security tools and services to help protect your data and applications. These tools and services are designed to meet the highest security standards.
+
+- Flexibility: Cloud computing gives you the flexibility to use the tools and applications you want. You can also use the operating systems and programming languages that you prefer.
 
 ## What is AWS?
 
@@ -56,13 +58,19 @@ Organizations of every type, size, and industry are using the cloud for a wide v
 
 Software as a Service (SaaS) is a software distribution model in which a third-party provider hosts applications and makes them available to customers over the Internet.
 
+For example, Google Docs is a SaaS application. You can access it from any computer with an Internet connection, and you don’t have to install any software on your computer.
+
 ### PasS (Platform as a Service)
 
 Platform as a Service (PaaS) is a cloud computing model in which a third-party provider delivers hardware and software tools to customers, who can then develop and run their own applications in the cloud.
 
+For example, Google App Engine is a PaaS application. You can use it to build and host your own applications in the cloud.
+
 ### IaaS (Infrastructure as a Service)
 
 Infrastructure as a Service (IaaS) is a cloud computing model in which a third-party provider delivers virtualized computing resources over the Internet. IaaS is a form of utility computing, in which resources are pooled to serve multiple customers using a multi-tenant model.
+
+For example, Amazon EC2 is an IaaS application. You can use it to build and host your own applications in the cloud.
 
 ## CapEx vs OpEx
 

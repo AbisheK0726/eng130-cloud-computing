@@ -33,8 +33,8 @@
 Once you're connected to the instance, you can run the following commands to update and upgrade the instance:
 
 ```bash
-sudo apt update
-sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 ```
 
 ## Install Nginx and Setup Reverse Proxy
