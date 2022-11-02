@@ -8,15 +8,17 @@ Cloud computing is the on-demand delivery of IT resources over the Internet. Ins
 
 ### Benefits of Clouding Computing
 
-- Agility: Cloud computing allows you to scale up or down as needed, so you can quickly adjust to changing business needs. You can also quickly add or remove resources, such as storage or compute power, as your needs change.
+- **Agility**: Cloud computing allows you to scale up or down as needed, so you can quickly adjust to changing business needs. You can also quickly add or remove resources, such as storage or compute power, as your needs change.
 
-- Cost savings: Cloud computing can help you reduce your IT costs. You only pay for what you use, so you can scale back or scale up as needed. You can also use tools to monitor and manage your cloud resources, so you can optimize your spending.
+- **Cost savings**: Cloud computing can help you reduce your IT costs. You only pay for what you use, so you can scale back or scale up as needed. You can also use tools to monitor and manage your cloud resources, so you can optimize your spending.
 
-- Global scale: Cloud computing gives you access to resources in multiple regions around the world. This means you can deliver content to your customers faster, no matter where they are.
+- **Global scale**: Cloud computing gives you access to resources in multiple regions around the world. This means you can deliver content to your customers faster, no matter where they are.
 
-- Security: Cloud computing providers offer a range of security tools and services to help protect your data and applications. These tools and services are designed to meet the highest security standards.
+- **Security**: Cloud computing providers offer a range of security tools and services to help protect your data and applications. These tools and services are designed to meet the highest security standards.
 
-- Flexibility: Cloud computing gives you the flexibility to use the tools and applications you want. You can also use the operating systems and programming languages that you prefer.
+- **Flexibility**: Cloud computing gives you the flexibility to use the tools and applications you want. You can also use the operating systems and programming languages that you prefer.
+
+- **Reliability**: Cloud computing providers offer high availability and fault tolerance to help ensure that your applications are always available. They also offer disaster recovery services to help you recover from a disaster.
 
 ## What is AWS?
 
@@ -58,19 +60,19 @@ Organizations of every type, size, and industry are using the cloud for a wide v
 
 Software as a Service (SaaS) is a software distribution model in which a third-party provider hosts applications and makes them available to customers over the Internet.
 
-For example, Google Docs is a SaaS application. You can access it from any computer with an Internet connection, and you don’t have to install any software on your computer.
+For example, **Google Docs** is a SaaS application. You can access it from any computer with an Internet connection, and you don’t have to install any software on your computer.
 
 ### PasS (Platform as a Service)
 
 Platform as a Service (PaaS) is a cloud computing model in which a third-party provider delivers hardware and software tools to customers, who can then develop and run their own applications in the cloud.
 
-For example, Google App Engine is a PaaS application. You can use it to build and host your own applications in the cloud.
+For example, **Google App Engine** is a PaaS application. You can use it to build and host your own applications in the cloud.
 
 ### IaaS (Infrastructure as a Service)
 
 Infrastructure as a Service (IaaS) is a cloud computing model in which a third-party provider delivers virtualized computing resources over the Internet. IaaS is a form of utility computing, in which resources are pooled to serve multiple customers using a multi-tenant model.
 
-For example, Amazon EC2 is an IaaS application. You can use it to build and host your own applications in the cloud.
+For example, **Amazon EC2** is an IaaS application. You can use it to build and host your own applications in the cloud.
 
 ## CapEx vs OpEx
 
@@ -80,6 +82,38 @@ For example, Amazon EC2 is an IaaS application. You can use it to build and host
 
 Capital expenditure (CapEx) is the money a company spends to acquire or upgrade physical assets such as property, buildings, or equipment.
 
+Examples of CapEx include:
+
+- Buying a new computer
+- Buying a new car
+- Buying a new house
+- Buying a new office building
+
 ### OpEx (Operating Expenditure)
 
 Operating expenditure (OpEx) is the money a company spends on day-to-day business activities, such as employee salaries, rent, utilities, and raw materials.
+
+Examples of OpEx include:
+
+- Renting a car
+- Renting an apartment
+- Renting a house
+- Renting an office building
+
+## 2 Tier Architecture
+
+![2 Tier Architecture](images/2-tier-arch.png)
+
+The 2-tier architecture is a simple architecture that consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database.
+
+### Sync Instance with local folder
+
+`scp -i "eng130.pem" -r <path/loction/of/local/folder> ubuntu@<public-ip-address>:/home/ubuntu/`
+
+### Installing MongoDB
+
+1. Create a new EC2 instance with Ubuntu Server 18.04 LTS (HVM)
+2. Set the security group to allow database connections from App Server
+3. Set the port to 27017 (default MongoDB port)
+4. Connect to the instance using SSH
+5. Follow the [Documention](https://github.com/AbisheK0726/eng130-virtualisation#steps-to-follow-for-db-setup) to install and connect to MongoDB
