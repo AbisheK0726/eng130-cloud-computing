@@ -125,3 +125,38 @@ An Amazon Machine Image (AMI) provides the information required to launch an ins
 3. Set the port to 27017 (default MongoDB port)
 4. Connect to the instance using SSH
 5. Follow the [Documention](https://github.com/AbisheK0726/eng130-virtualisation#steps-to-follow-for-db-setup) to install and connect to MongoDB
+
+## Disaster Recovery
+
+## What is Disaster Recovery?
+
+AWS provides a range of disaster recovery stratgies to help you recover from a disaster. These can be broadly divided into four categories:
+
+- low cost and low complexity, such as Amazon S3 to store backups
+- low high and high complexity, such as having a standby environment in different active regions
+- Active Sites, such as an AWS Region to host the workload and serve traffic.
+- Passive Sites, such as a different AWS Region is used for recovery. The passive site does not actively serve traffic until a failover event is triggered.
+
+![Disaster Recovery](images/DRS.png)
+
+It is critical to regularly assess and test your disaster recovery strategy so that you have confidence in invoking it, should it become necessary.
+
+## What is S3?
+
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.
+
+### Benefits of S3
+
+- **Scalability**: Amazon S3 is designed to scale to meet the needs of your business. You can store as many objects as you want, and you can access them from anywhere on the Internet.
+
+- **Durability**: Amazon S3 is designed to provide 99.999999999% durability, and stores data for millions of applications for companies all around the world.
+
+- **Security**: Amazon S3 provides multiple layers of security to help protect your data. You can use access control lists (ACLs) and bucket policies to control access to buckets and objects. You can also use AWS Identity and Access Management (IAM) to control access to Amazon S3.
+
+- **Performance**: Amazon S3 provides fast, predictable, and scalable performance. Amazon S3 automatically distributes your data across multiple facilities and enables you to choose the location where you want your data to reside.
+
+- **Cost-Effectiveness**: Amazon S3 provides a simple web services interface that can be used to store and retrieve any amount of data, at any time, from anywhere on the web. You pay only for the storage you actually use.
+
+- **Integrations**: Amazon S3 integrates with other AWS services, such as Amazon Elastic Compute Cloud (Amazon EC2), Amazon Elastic Block Store (Amazon EBS), Amazon Glacier, Amazon CloudFront, and AWS Lambda.
+
+### Use Cases of S3
