@@ -100,11 +100,15 @@ Examples of OpEx include:
 - Renting a house
 - Renting an office building
 
-## 2 Tier Architecture
+## 2 Tier Architecture on AWS
 
 ![2 Tier Architecture](images/2-tier-arch.png)
 
 The 2-tier architecture is a simple architecture that consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database.
+
+### AMI (Amazon Machine Image)
+
+An Amazon Machine Image (AMI) provides the information required to launch an instance. You must specify an AMI when you launch an instance. You can launch multiple instances from a single AMI when you need multiple instances with the same configuration. You can use different AMIs to launch instances when you need instances with different configurations.
 
 ### Sync Instance with local folder
 
