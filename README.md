@@ -106,6 +106,10 @@ Examples of OpEx include:
 
 The 2-tier architecture is a simple architecture that consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database.
 
+### User Data
+
+User data is a script that an instance runs when it starts. You can use user data to automate the configuration of your instances. For example, you can use user data to install software, configure security, or download data from a remote location.
+
 ### AMI (Amazon Machine Image)
 
 An Amazon Machine Image (AMI) provides the information required to launch an instance. You must specify an AMI when you launch an instance. You can launch multiple instances from a single AMI when you need multiple instances with the same configuration. You can use different AMIs to launch instances when you need instances with different configurations.
