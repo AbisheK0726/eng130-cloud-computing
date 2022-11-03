@@ -145,6 +145,12 @@ It is critical to regularly assess and test your disaster recovery strategy so t
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.
 
+[How to Connect to S3](setup-Connection-S3.md)
+
+## S3 Buckets
+
+A bucket is a container for objects stored in Amazon S3. Every object is contained in a bucket. Buckets are the fundamental containers in Amazon S3 for data storage. A bucket is similar to a folder in the file system. You can store any number of objects in a bucket.
+
 ### Benefits of S3
 
 - **Scalability**: Amazon S3 is designed to scale to meet the needs of your business. You can store as many objects as you want, and you can access them from anywhere on the Internet.
@@ -160,3 +166,11 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 - **Integrations**: Amazon S3 integrates with other AWS services, such as Amazon Elastic Compute Cloud (Amazon EC2), Amazon Elastic Block Store (Amazon EBS), Amazon Glacier, Amazon CloudFront, and AWS Lambda.
 
 ### Use Cases of S3
+
+- **Data Archiving**: Amazon S3 is a great storage location for data that is infrequently accessed and long-lived. You can use Amazon S3 to store data for disaster recovery, data lakes, and backups.
+
+- **Data Backup and Recovery**: Amazon S3 is a secure, durable, highly-scalable, and low-cost storage service that can be used for data backup and recovery.
+
+- **Disaster Recovery**: Amazon S3 is a secure, durable, highly-scalable, and low-cost storage service that can be used for data backup and recovery.
+
+- **Data Lake Storage**: Amazon S3 is a secure, durable, highly-scalable, and low-cost storage service that can be used for data backup and recovery.

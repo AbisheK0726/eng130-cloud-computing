@@ -25,14 +25,46 @@ sudo pip install awscli
 aws configure
 Enter AWS Access Key ID: `AWSACCESSENG130EXAMPLE`
 Enter AWS Secret Access Key: `spArTGloBAl/ENG130DO/EXAMPLEKEY`
-Enter Default region name: `ew-east-1`
+Enter Default region name: `eu-west-1`
 Enter Default output format: `json`
 ```
 
 ## Test AWS CLI
 
+You should see a list of buckets
+
 ```bash
 aws s3 ls
 ```
 
-You should see a list of buckets
+## S3 Commands
+
+### Create a Bucket
+
+```bash
+aws s3 mb s3://bucket-name
+```
+
+### Upload a file to S3
+
+```bash
+aws s3 cp <path/to/file> s3://bucket-name
+```
+
+### Download a file from S3
+
+```bash
+aws s3 cp s3://bucket-name/file-name.txt new-file-name.txt
+```
+
+### Delete a file from S3
+
+```bash
+aws s3 rm s3://bucket-name/file-name.txt
+```
+
+### Delete a bucket
+
+```bash
+aws s3 rb s3://bucket-name
+```
