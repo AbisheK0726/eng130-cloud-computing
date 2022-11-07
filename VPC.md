@@ -6,23 +6,23 @@
 
 A VPC is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. You can launch your AWS resources, such as Amazon EC2 instances, into your VPC. You can specify an IP address range for the VPC, add subnets, associate security groups, and configure route tables.
 
-## Internet Gateway
+### Internet Gateway
 
 An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between instances in your VPC and the internet. It performs network address translation (NAT) for instances that have been assigned public IPv4 addresses.
 
-## Route Table
+### Route Table
 
 A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed. Each route table contains a local route for the virtual private cloud (VPC) that contains it, and a default route for outbound traffic.
 
-## Cidr Block
+### Cidr Block
 
 CIDR stands for Classless Inter-Domain Routing. It is a method of allocating IP addresses and IP routing. CIDR is a superset of the older system of allocating IP addresses. CIDR uses a slash notation to indicate the number of bits in the network prefix. For example, the CIDR block
 
-## Subnet
+### Subnet
 
 A subnet is a range of IP addresses in your VPC. You can launch AWS resources, such as Amazon EC2 instances, into a subnet. You specify the size of the subnet when you create it, and you can't change the size after you create it. You can create as many subnets as you want in a VPC. You can create subnets in each Availability Zone.
 
-## NACL
+### NACL
 
 A network access control list (ACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
 
@@ -41,3 +41,13 @@ You can't delete the default rules, but you can change them. When you create a n
 | NACL is stateless | Security Group is stateful |
 | NACL is at subnet level | Security Group is at instance level |
 | NACL is a network level firewall | Security Group is a security group level firewall |
+
+## Steps
+
+1. Create a VPC - 10.0.0.0/16
+2. Create a internet gateway
+3. Attach the internet gateway to the VPC
+4. Create a public subnet - 10.0.4.0/24
+5. Route table - Attach to VPC
+6. Add a routes to the route table - Connect to the internet gateway
+7. Asscoiate the route table with the public subnet and launch an EC2 instance
