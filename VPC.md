@@ -1,5 +1,7 @@
 # VPC
 
+![VPC](images/VPC.png)
+
 ## What is a VPC?
 
 A VPC is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. You can launch your AWS resources, such as Amazon EC2 instances, into your VPC. You can specify an IP address range for the VPC, add subnets, associate security groups, and configure route tables.
