@@ -104,7 +104,17 @@ Examples of OpEx include:
 
 ![2 Tier Architecture](images/2-tier-arch.png)
 
-The 2-tier architecture is a simple architecture that consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database.
+The 2-tier architecture is a simple architecture that consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database. The separation of the presentation layer and the data layer is the key to the 2-tier architecture.
+
+### Benefits of 2 Tier Architecture
+
+- **Easy to understand**: The 2-tier architecture is easy to understand because it is simple. It consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database.
+
+- **Easy to maintain**: The 2-tier architecture is easy to maintain because it is simple. It consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database.
+
+- **Easy to scale**: The 2-tier architecture is easy to scale because it is simple. It consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database.
+
+- **Easy to deploy**: The 2-tier architecture is easy to deploy because it is simple. It consists of a presentation layer and a data layer. The presentation layer is the user interface, and the data layer is the database.
 
 ### User Data
 
@@ -174,3 +184,15 @@ A bucket is a container for objects stored in Amazon S3. Every object is contain
 - **Disaster Recovery**: Amazon S3 is a secure, durable, highly-scalable, and low-cost storage service that can be used for data backup and recovery.
 
 - **Data Lake Storage**: Amazon S3 is a secure, durable, highly-scalable, and low-cost storage service that can be used for data backup and recovery.
+
+## Auto Scaling Groups
+
+An Auto Scaling group is a collection of EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management. Auto Scaling groups can be used to automatically scale out (increase the number of instances) or scale in (decrease the number of instances) based on demand, schedule, or health checks.
+
+## Elastic Load Balancing
+
+Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones. Elastic Load Balancing offers three types of load balancers: Application Load Balancers, Network Load Balancers, and Classic Load Balancers.
+
+## CloudWatch Alarms
+
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers. CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health.
